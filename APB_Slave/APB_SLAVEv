@@ -5,7 +5,7 @@
 // 
 // Create Date: 02/18/2024 01:59:28 PM
 // Design Name: 
-// Module Name: APB_MASTER
+// Module Name: APB_SLAVE
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module APB_MASTER(
+module APB_SLAVE(
 //global signals
 input Presetn,
 input Pclk,
