@@ -5,7 +5,7 @@
 // 
 // Create Date: 02/18/2024 01:57:46 PM
 // Design Name: 
-// Module Name: AHB_SLAVE
+// Module Name: AHB_MASTER
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module AHB_SLAVE(
+module AHB_MASTER(
                      input             Hclk,
                      input             Hresetn,
                      input [1:0]       Htrans,
